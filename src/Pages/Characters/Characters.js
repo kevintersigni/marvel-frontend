@@ -70,6 +70,7 @@ const Characters = () => {
             key={index}
             character={character}
             cookieCharactersId={cookieCharactersId}
+            setCookieCharactersId={setCookieCharactersId}
           />
         ))}
       </div>
