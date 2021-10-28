@@ -6,6 +6,7 @@ import Cookies from "js-cookie";
 
 import Pagination from "../../Components/Pagination/Pagination";
 import SearchBox from "../../Components/SearchBox/SearchBox";
+import LoadSpinner from "../../Components/LoadSpinner/LoadSpinner";
 
 import CharacterCard from "../../Components/CharacterCard/CharacterCard";
 import ScrollToTop from "../../Components/ScrollToTop/ScrollToTop";
@@ -77,7 +78,7 @@ const Characters = () => {
       <ScrollToTop />
     </div>
   ) : (
-    <div>chargement</div>
+    <LoadSpinner />
   );
 };
 

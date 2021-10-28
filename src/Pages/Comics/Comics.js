@@ -7,6 +7,7 @@ import Pagination from "../../Components/Pagination/Pagination";
 import SearchBox from "../../Components/SearchBox/SearchBox";
 import ComicCard from "../../Components/ComicCard/ComicCard";
 import ScrollToTop from "../../Components/ScrollToTop/ScrollToTop";
+import LoadSpinner from "../../Components/LoadSpinner/LoadSpinner";
 
 import "./Comics.css";
 
@@ -86,7 +87,7 @@ const Comics = () => {
       </div>
     </div>
   ) : (
-    <div>chargement</div>
+    <LoadSpinner />
   );
 };
 
