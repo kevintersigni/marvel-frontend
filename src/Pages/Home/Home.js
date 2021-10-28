@@ -6,7 +6,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="homeContainer">
-      <h1>Bienvenue sur le WikiMarvel</h1>
+      <h1>Welcome to the World Of Marvel</h1>
 
       <div className="chooseContainer">
         <Link to="/characters" className="navBoxContainer">
