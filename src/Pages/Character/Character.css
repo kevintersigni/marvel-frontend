@@ -1,0 +1,155 @@
+.character-container {
+  margin-top: 120px;
+  min-height: calc(100vh - 200px);
+  display: flex;
+  flex-direction: column;
+}
+
+.character-container h1 {
+  color: red;
+  margin: 20px 40px;
+  font-size: 50px;
+}
+
+.character-container p {
+  margin: 0 40px;
+  font-size: 20px;
+}
+
+.character-container .button-container {
+  text-align: right;
+  margin: 0 50px;
+}
+
+.character-container button.goBack {
+  color: white;
+  position: absolute;
+  border-style: none;
+  background-color: #395eac;
+  border: solid 2px #395eac;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  top: 15px;
+  left: 20px;
+}
+
+.character-container button.goBack:hover {
+  background-color: white;
+  color: #395eac;
+  cursor: pointer;
+}
+
+.character-container button.goBack span {
+  margin-left: 10px;
+}
+
+.character-container .button-container button {
+  background-color: white;
+  color: #395eac;
+  border-style: none;
+  border: solid 2px #395eac;
+  padding: 15px;
+  width: 200px;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.character-container .button-container button:hover {
+  background-color: #395eac;
+  color: white;
+  cursor: pointer;
+}
+
+.character-container .character-details {
+  display: flex;
+  position: relative;
+}
+
+.character-container .img-container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+
+  /* flex: 1; */
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+
+.character-container .img-container img {
+  /* max-width: 50vw; */
+  max-height: 500px;
+  /* min-width: 400px; */
+  /* object-fit: cover; */
+}
+
+.character-container .detail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* flex: 1; */
+  width: 50vw;
+
+  /* padding: 20px; */
+  box-sizing: border-box;
+}
+
+.character-container .detail-character {
+  display: flex;
+  flex-direction: column;
+}
+
+.character-container h2 {
+  background-color: red;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.character-container .comics-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url("../../assets/images/background_opt.jpg");
+}
+
+.character-container .comics-list figure {
+  display: flex;
+  flex-direction: column;
+  /* padding: 5px; */
+  height: 250px;
+  margin: 10px auto;
+  position: relative;
+}
+
+.character-container .comics-list figcaption {
+  background-color: rgb(46, 46, 46, 0.5);
+  font-weight: bolder;
+  color: white;
+  height: 250px;
+  width: 160px;
+  text-align: center;
+  display: none;
+  padding: 0 5px;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+}
+
+.character-container .comic-item {
+  margin: 10px 10px;
+}
+
+.character-container .comics-list img {
+  height: 250px;
+  width: 160px;
+
+  object-fit: contain;
+  box-sizing: border-box;
+}
+
+.character-container .comics-list figure:hover > figcaption {
+  display: flex;
+  cursor: pointer;
+}

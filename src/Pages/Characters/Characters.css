@@ -1,0 +1,26 @@
+.charactersContainer {
+  margin-top: 120px;
+  min-height: calc(100vh - 200px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/images/background_opt.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.characters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.characters a {
+  color: #395eac;
+}
+
+p.characters-count {
+  color: white;
+  font-style: italic;
+}

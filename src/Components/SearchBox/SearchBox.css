@@ -1,0 +1,40 @@
+.searchContainer {
+  display: flex;
+}
+
+.searchContainer > div {
+  margin: 0 10px;
+}
+
+.searchBar input {
+  height: 50px;
+  width: 400px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.searchBar input:focus,
+.displayFilter select:focus {
+  outline: solid 2px #395eac;
+}
+
+.searchBar input::placeholder {
+  /* padding-left: 10px; */
+  font-style: italic;
+}
+
+.displayFilter label {
+  color: white;
+  border-left: solid 1px white;
+  padding-left: 10px;
+  height: 50px;
+}
+
+.displayFilter select {
+  height: 50px;
+  width: 80px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 10px;
+}

@@ -1,0 +1,79 @@
+.homeContainer {
+  margin-top: 120px;
+  background-image: url("../../assets/images/background_opt.jpg");
+  background-size: cover;
+  height: calc(100vh - 200px);
+  text-align: center;
+  overflow: hidden;
+}
+
+.homeContainer h1 {
+  color: white;
+  margin: 60px;
+}
+.chooseContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px;
+}
+
+.navBoxContainer:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 200px;
+  border: solid 2px white;
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 0;
+  background-image: linear-gradient(
+      rgba(10, 10, 10, 0.5),
+      rgba(10, 10, 10, 0.5)
+    ),
+    url("../../assets/images/characters_opt.jpg");
+  background-size: cover;
+}
+.navBoxContainer:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 200px;
+  border: solid 2px white;
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 0;
+  background-image: linear-gradient(
+      rgba(10, 10, 10, 0.5),
+      rgba(10, 10, 10, 0.5)
+    ),
+    url("../../assets/images/comics_opt.jpg");
+  background-size: cover;
+}
+
+.navBoxContainer:hover h2 {
+  text-shadow: 1px 1px 2px pink;
+}
+
+.navBoxContainer:first-child:hover {
+  background-image: linear-gradient(
+      rgba(10, 10, 10, 0.2),
+      rgba(10, 10, 10, 0.2)
+    ),
+    url("../../assets/images/characters_opt.jpg");
+}
+.navBoxContainer:last-child:hover {
+  background-image: linear-gradient(
+      rgba(10, 10, 10, 0.2),
+      rgba(10, 10, 10, 0.2)
+    ),
+    url("../../assets/images/comics_opt.jpg");
+}

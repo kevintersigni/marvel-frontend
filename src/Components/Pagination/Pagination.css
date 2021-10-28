@@ -1,0 +1,39 @@
+.paginationContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.pagination {
+  padding: 0;
+}
+
+.pagination ul {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.pagination li {
+  background-color: #395eac;
+  display: inline-block;
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 5px;
+}
+.pagination li a {
+  padding: 16px;
+  color: white;
+}
+.pagination li:hover {
+  cursor: pointer;
+  background-color: white;
+}
+.pagination li:hover a,
+.pagination .active a {
+  color: #395eac;
+}
+.pagination .active {
+  background-color: white;
+  border: solid 1px #395eac;
+}

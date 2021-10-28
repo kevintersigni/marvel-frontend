@@ -1,0 +1,146 @@
+.favoritesContainer {
+  margin-top: 120px;
+  min-height: calc(100vh - 200px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/images/background_opt.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.favoritesContainer h2 {
+  color: #395eac;
+  margin: 20px 10px;
+}
+
+.comicsFav-container,
+.charactersFav-container {
+  display: flex;
+  width: 1090px;
+  flex-direction: column;
+  margin: 20px 10px;
+  border: solid 4px #395eac;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+}
+
+.comicsFav-container div,
+.charactersFav-container div {
+  margin: 20px 10px;
+}
+
+.comicsFav-list,
+.charactersFav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.comicsFav-list .comic-card-fav,
+.charactersFav-list .character-card-fav {
+  margin: 10px 10px;
+}
+
+.comicsFav-list .comic-card-fav button,
+.charactersFav-list .character-card-fav button {
+  background-color: white;
+  color: #395eac;
+  border-style: none;
+  border: solid 2px #395eac;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.comicsFav-list .comic-card-fav button:hover,
+.charactersFav-list .character-card-fav button:hover {
+  background-color: #395eac;
+  color: white;
+  cursor: pointer;
+}
+
+.favoritesContainer button.red {
+  background-color: white;
+  color: red;
+  border-style: none;
+  border: solid 2px red;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.favoritesContainer button.red:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.favoritesContainer .button-container button {
+  width: 20%;
+}
+
+.comicsFav-container .comicsFav-list figure,
+.charactersFav-container .charactersFav-list figure {
+  display: flex;
+  flex-direction: column;
+
+  height: 350px;
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+}
+
+.comicsFav-container .comicsFav-list figcaption,
+.charactersFav-container .charactersFav-list figcaption {
+  background-color: rgb(46, 46, 46, 0.5);
+  font-weight: bolder;
+  color: white;
+  height: 350px;
+  padding: 0 5px;
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: calc(100% - 10px);
+}
+
+.comicsFav-container .comicsFav-list figure:hover > figcaption,
+.charactersFav-container .charactersFav-list figure:hover > figcaption {
+  display: flex;
+  cursor: pointer;
+}
+
+.comicsFav-container .button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.comicsFav-container .comicsFav-list .comic-card-fav img,
+.charactersFav-container .charactersFav-list .character-card-fav img {
+  object-fit: cover;
+  height: 350px;
+  max-width: 234px;
+}
+
+/* CHARACTER BUTTON*/
+
+.charactersFav-container .button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
