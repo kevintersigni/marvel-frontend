@@ -1,70 +1,67 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# World Of Marvel
 
-## Available Scripts
+Ce projet était un test technique "blanc" proposé pendant ma formation au [Reacteur](https://www.lereacteur.io/).
 
-In the project directory, you can run:
+Une API nous était fournie mais nous devions réaliser un backend pour effectuer nos requêtes et y accéder ([le mien par ici](https://github.com/kevintersigni/marvel-backend)).
 
-### `yarn start`
+Pas de maquette imposée donc je suis parti sur quelque chose de très basique, on repassera pour le style.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Les consignes étaient de proposer un accès à une page contenant tous les comics et une autre contenant tous les personnages. Sur cette dernière il devait être possible d'accéder à la page d'un personnage avec les comics dans lesquels il apparait.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Le visiteur devait pouvoir naviguer grâce à une pagination et accéder à une barre de recherche sur chaque page.
 
-### `yarn test`
+Enfin nous devions donner la possibilité au visiteur de mettre en favori ses comics et/ou personnages grâce à un système de cookie.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Lien du projet : <a href="https://worldofmarvel.netlify.app/" target="_blank">World Of Marvel</a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+https://user-images.githubusercontent.com/81259152/139523399-911fb3ed-df74-4b65-b822-f3ff9bf45980.mp4
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Backend 👉🏼   [par là](https://github.com/kevintersigni/marvel-backend)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Features
 
-## Learn More
+- Search bar
+- Pagination
+- Router
+- Cookie
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Skills & packages
+React, Javascript, HTML, CSS.
 
-### Code Splitting
+React router, JS Cookie, axios, RC pagination, qs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install my-project with yarn 👇🏼
 
-### Making a Progressive Web App
+#### Clone this repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+`git clone https://github.com/kevintersigni/marvel-frontend.git`
 
-### Advanced Configuration
+#### Install packages:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+`yarn install`
 
-### Deployment
+#### When installation is complete, launch the project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+`yarn start`
+## Roadmap
 
-### `yarn build` fails to minify
+Pour améliorer ce projet voici ce que je prévois :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- responsive
+- auto-completion
+- mise en place d'une BDD user avec système login/signup
+- gestion des favoris via la BDD
+- nouvelle maquette
+
